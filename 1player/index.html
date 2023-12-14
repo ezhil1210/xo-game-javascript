@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Document</title>
+
+</head>
+
+<body>
+
+  <div class="title">
+    <h1>Tic Tac Toe</h1>
+  </div>
+  <div id="main">
+    <div class="scoreboard end">
+      <div class="badge" id="user">User</div>
+      <span id="userscore">0</span> : <span id="compscore">0</span>
+      <div class="badge" id="comp">Comp</div>
+    </div>
+
+
+    <div class="game">
+      <table>
+        <tr>
+          <span id="b1">
+            <td class="t123" id="btn1"></td>
+          </span>
+          <span id="b2">
+            <td class="t123" id="btn2"></td>
+          </span>
+          <span id="b3">
+            <td class="t123 t369" id="btn3"></td>
+          </span>
+        </tr>
+
+        <tr>
+          <span id="b4">
+            <td id="btn4"></td>
+          </span>
+          <span id="b5">
+            <td id="btn5"></td>
+          </span>
+          <span id="b6">
+            <td class="t369" id="btn6"></td>
+          </span>
+
+        </tr>
+        <tr>
+          <span id="b7">
+            <td id="btn7"></td>
+          </span>
+          <span id="b8">
+            <td id="btn8"></td>
+          </span>
+          <span id="b9">
+            <td class="t369" id="btn9"></td>
+          </span>
+        </tr>
+      </table>
+    </div>
+    <div class="result">
+      <h2 id="result">Click to play</h2>
+    </div>
+
+
+    <div style="text-align: center;">
+
+
+      <button id="btn" class="end">Reset Game</button>
+    </div>
+  </div>
+
+</body>
+<script src="app.js"></script>
+
+</html>
